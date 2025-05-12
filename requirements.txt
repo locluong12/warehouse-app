@@ -1,9 +1,7 @@
-streamlit 
+streamlit
 pandas
-matplotlib.pyplot
+matplotlib
 seaborn
 altair
-plotly.express
-plotly.graph_objects
-io
-streamlit.components.v1
+plotly
+
