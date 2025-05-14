@@ -1,5 +1,7 @@
 import streamlit as st
 import streamlit.components.v1 as components
+import sys
+
 
 # --- Cấu hình trang ---
 st.set_page_config(page_title="Warehouse Management", page_icon="📦", layout="wide")
@@ -41,7 +43,7 @@ if "selected_sub_menu" not in st.session_state:
 
 # --- Trang đăng nhập ---
 if not st.session_state.authenticated:
-    from login import login_page
+    from pages.login import login_page
     login_page()
     st.stop()
 
